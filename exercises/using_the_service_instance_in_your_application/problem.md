@@ -3,10 +3,13 @@ Using the Service Instance in your Application
 ----------------------------------------------------------------------
 ## HINTS
 
-From the command line, inside the project directory for the simple web application we created earlier, run the following command to install the `node-redis` module from npm:
+From the command line, inside the project directory for the simple web
+application we created earlier, run the following command to install the
+`node-redis` module from npm:
     `npm install --save redis`
 
-Then, use your favorite editor to open `index.js` (your entry point file). Update the content to the following:
+Then, use your favorite editor to open `index.js` (your entry point file).
+Update the content to the following:
 ```
     var http = require('http');
     var redis = require('redis');
@@ -38,7 +41,8 @@ Then, use your favorite editor to open `index.js` (your entry point file). Updat
 
 Save your changes and redeploy using `cf push`.
 
-Once you're ready to continue, run `{appname} verify {bluemix-appname}` to verify that the application has been updated correctly.
+Once you're ready to continue, run `{appname} verify {bluemix-appname}` to
+verify that the application has been updated correctly.
 
 ----------------------------------------------------------------------
 
