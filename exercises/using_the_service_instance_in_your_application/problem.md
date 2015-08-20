@@ -43,5 +43,6 @@ Once you're ready to continue, run `{appname} verify {bluemix-appname}` to verif
 ----------------------------------------------------------------------
 
  __»__ To print these instructions again, run: `{appname} print`
+ __»__ To view the Bluemix Documentation, run: `{appname} open`
  __»__ To verify you work, run: `{appname} verify {bluemix-appname}`
  __»__ For help run: `{appname} help

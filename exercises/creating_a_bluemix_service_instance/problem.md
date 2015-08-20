@@ -21,5 +21,6 @@ Once you've created the service instance, run `{appname} verify myrediscloud` to
 ----------------------------------------------------------------------
 
  __»__ To print these instructions again, run: `{appname} print`
+ __»__ To view the Bluemix Documentation, run: `{appname} open
  __»__ To verify your work, run: `{appname} verify myrediscloud`
  __»__ For help run: `{appname} help

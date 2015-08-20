@@ -32,5 +32,6 @@ When files in the local project directory are updated, the changes are automatic
 ----------------------------------------------------------------------
 
  __»__ To print these instructions again, run: `{appname} print`
+ __»__ To view the Bluemix Documentation, run: `{appname} open
  __»__ To verify your work, run: `{appname} verify`
  __»__ For help run: `{appname} help

@@ -31,5 +31,6 @@ When you're ready to continue, run `{appname} verify` to verify that you have se
 
  __»__ To print these instructions again, run: `{appname} print`
  __»__ To view additional information, run: `{appname} more`
+ __»__ To view the Bluemix Documentation, run: `{appname} open
  __»__ To verify your work, run: `{appname} verify`
  __»__ For help run: `{appname} help`

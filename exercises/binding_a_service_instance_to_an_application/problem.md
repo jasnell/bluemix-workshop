@@ -16,5 +16,6 @@ Once you've successfully bound the service instance to the application, run the 
 ----------------------------------------------------------------------
 
  __»__ To print these instructions again, run: `{appname} print`
+ __»__ To view the Bluemix Documentation, run: `{appname} open
  __»__ To verify your work, run: `{appname} verify {bluemix-appname} myrediscloud`
  __»__ For help run: `{appname} help

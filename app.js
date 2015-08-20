@@ -3,6 +3,22 @@
 const workshopper = require('workshopper');
 const path        = require('path');
 const more        = require('workshopper-more');
+const open        = require('./open');
+
+const opn = require('open');
+
+function signup(workshopper) {
+  opn('https://console.ng.bluemix.net/registration/');
+}
+function dashboard(workshopper) {
+  opn('https://console.ng.bluemix.net/?direct=classic/#/resources');
+}
+function catalog(workshopper) {
+  opn('https://console.ng.bluemix.net/catalog/');
+}
+function solutions(workshopper) {
+  opn('https://console.ng.bluemix.net/solutions/');
+}
 
 workshopper({
   name        : 'bluemix-workshop',
@@ -16,6 +32,36 @@ workshopper({
       menu: false,
       short: 'm',
       handler: more
+    },
+    {
+      name: 'open',
+      menu: false,
+      short: 'o',
+      handler: open
+    },
+    {
+      name: 'register',
+      menu: true,
+      short: 'r',
+      handler: signup
+    },
+    {
+      name: 'dashboard',
+      menu: true,
+      short: 'd',
+      handler: dashboard
+    },
+    {
+      name: 'solutions',
+      menu: true,
+      short: 's',
+      handler: solutions
+    },
+    {
+      name: 'catalog',
+      menu: true,
+      short: 'c',
+      handler: catalog
     }
   ]
 });

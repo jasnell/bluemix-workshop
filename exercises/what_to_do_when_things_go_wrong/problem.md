@@ -15,5 +15,6 @@ The `cf env`, `cf set-env` and `cf unset-env` commands can be used to view and m
 ----------------------------------------------------------------------
 
 __»__ To print these instructions again, run: `{appname} print`
+ __»__ To view the Bluemix Documentation, run: `{appname} open`
 __»__ To verify you work, run: `{appname} verify`
 __»__ For help run: `{appname} help`

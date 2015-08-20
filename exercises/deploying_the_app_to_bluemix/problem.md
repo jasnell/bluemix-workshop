@@ -8,5 +8,6 @@ Now that your application has been developed and configured for use with Bluemix
 ----------------------------------------------------------------------
 
  __»__ To print these instructions again, run: `{appname} print`
+ __»__ To view the Bluemix Documentation, run: `{appname} open
  __»__ To verify your work, run: `{appname} verify {bluemix-appname}`
  __»__ For help run: `{appname} help

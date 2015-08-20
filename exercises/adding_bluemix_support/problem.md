@@ -30,5 +30,6 @@ the relative or absolute path to the directory containing your simple web applic
 ----------------------------------------------------------------------
 
  __»__ To print these instructions again, run: `{appname} print`
+ __»__ To view the Bluemix Documentation, run: `{appname} open
  __»__ To verify your work, run: `{appname} verify {dir}`
  __»__ For help run: `{appname} help
