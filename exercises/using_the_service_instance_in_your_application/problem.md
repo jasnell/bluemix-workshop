@@ -27,7 +27,7 @@ Then, use your favorite editor to open `index.js` (your entry point file). Updat
       client.get('last-visit', function(err, reply) {
         res.writeHead(200, {'Content-Type': 'text/plain'});
         client.set('last-visit', new Date().toISOString());
-        if (reply) res.write('Last Visit: ' + reply + '\n');
+        res.write('Last Visit: ' + reply + '\n');
         res.end('Hello World');
       });
     });

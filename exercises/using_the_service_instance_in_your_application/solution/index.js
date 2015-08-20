@@ -19,7 +19,7 @@ var server = http.createServer(function(req,res) {
   client.get('last-visit', function(err, reply) {
     res.writeHead(200, {'Content-Type': 'text/plain'});
     client.set('last-visit', new Date().toISOString());
-    if (reply) res.write('Last Visit: ' + reply + '\n');
+    res.write('Last Visit: ' + reply + '\n');
     res.end('Hello World');
   });
 });

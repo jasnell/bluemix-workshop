@@ -4,11 +4,20 @@
 const spawn = require('child_process').spawn;
 const path = require('path');
 const http = require('http');
+const win32 = (process.platform === 'win32');
 
 function setup (mode, callback) {
   var submission = this.args[0];
   var wd = path.resolve(process.cwd(), submission);
-  spawn('npm', ['start'], {cwd: wd})
+
+  var cmd = 'npm';
+  var args = ['start'];
+  if (win32) {
+    args = ['/c', cmd].concat(args);
+    cmd = 'cmd';
+  }
+
+  spawn(cmd, args, {cwd: wd})
     .on('error', function(err) {
       callback(new Error('The web app could not be started'));
     })
