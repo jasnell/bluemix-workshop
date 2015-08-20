@@ -19,6 +19,9 @@ function catalog(workshopper) {
 function solutions(workshopper) {
   opn('https://console.ng.bluemix.net/solutions/');
 }
+function whatis(workshopper) {
+  opn('https://www.ng.bluemix.net/docs/');
+}
 
 workshopper({
   name        : 'bluemix-workshop',
@@ -38,6 +41,12 @@ workshopper({
       menu: false,
       short: 'o',
       handler: open
+    },
+    {
+      name: 'what is bluemix',
+      menu: true,
+      short: 'w',
+      handler: whatis
     },
     {
       name: 'register',
