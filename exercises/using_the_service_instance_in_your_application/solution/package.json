@@ -1,0 +1,15 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "James M Snell",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "redis": "^0.12.1"
+  }
+}

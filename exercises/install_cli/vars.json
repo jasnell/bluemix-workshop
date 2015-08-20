@@ -1,0 +1,22 @@
+{
+  "instructions": {
+    "Ubuntu Linux": {
+      "cf": "---- only see this on ubuntu ----"
+    },
+    "debian": {
+      "cfinstall": "On Debian:\n\n  __32-bit__:\n    `$ curl -L -l cf-6.12.2.deb \"https://cli.run.pivotal.io/stable?release=debian32&version=6.12.2&source=github-rel\"`\n    `$ sudo dpkg -i cf-6.12.2.deb`\n\n  __64-bit__:\n    `$ curl -L -l cf-6.12.2.deb \"https://cli.run.pivotal.io/stable?release=debian64&version=6.12.2&source=github-rel\"`\n    `$ sudo dpkg -i cf-6.12.2.deb`"
+    },
+    "ubuntu": {
+      "cfinstall": "On Ubuntu:\n\n  __32-bit__:\n    `$ curl -L -l cf-6.12.2.deb \"https://cli.run.pivotal.io/stable?release=debian32&version=6.12.2&source=github-rel\"`\n    `$ sudo dpkg -i cf-6.12.2.deb`\n\n  __64-bit__:\n    `$ curl -L -l cf-6.12.2.deb \"https://cli.run.pivotal.io/stable?release=debian64&version=6.12.2&source=github-rel\"`\n    `$ sudo dpkg -i cf-6.12.2.deb`"
+    },
+    "ubuntu linux": {
+      "cfinstall": "On Ubuntu:\n\n  __32-bit__:\n    `$ curl -L -l cf-6.12.2.deb \"https://cli.run.pivotal.io/stable?release=debian32&version=6.12.2&source=github-rel\"`\n    `$ sudo dpkg -i cf-6.12.2.deb`\n\n  __64-bit__:\n    `$ curl -L -l cf-6.12.2.deb \"https://cli.run.pivotal.io/stable?release=debian64&version=6.12.2&source=github-rel\"`\n    `$ sudo dpkg -i cf-6.12.2.deb`"
+    },
+    "darwin": {
+      "cfinstall": "on Mac OS X (64 bit):\n\n    `$ curl -L -o cf-6.12.2.pkg \"https://cli.run.pivotal.io/stable?release=macosx64&version=6.12.2&source=github-rel\"`\n    `$ open cf-6.12.2.pkg`"
+    },
+    "other": {
+      "cfinstall": "visit `https://github.com/cloudfoundry/cli/releases` in your browser, then download and install the appropriate `cf` binary for your platform."
+    }
+  }
+}
