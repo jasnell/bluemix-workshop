@@ -29,7 +29,6 @@ applications:
   instances: 1
   path: .
   host: {yourappname}
-  command: node index.js
 ```
 Where {yourappname} is a unique name you choose for your application. You will
 definitely want to choose something unique but memorable here because the name

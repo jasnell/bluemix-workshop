@@ -8,5 +8,6 @@
   "Creating a Bluemix Service Instance",
   "Binding a Service Instance to an Application",
   "Using the Service Instance in your Application",
-  "What To Do When Things Go Wrong"
+  "What To Do When Things Go Wrong",
+  "Using node-inspector"
 ]
