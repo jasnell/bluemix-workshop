@@ -8,6 +8,11 @@
   "Creating a Bluemix Service Instance",
   "Binding a Service Instance to an Application",
   "Using the Service Instance in your Application",
-  "What To Do When Things Go Wrong",
-  "Using node-inspector"
+  "Using node-inspector",
+  "Using tracing",
+  "Using the latest version of Node.js",
+  "Using user-provided services for secrets",
+  "Using a custom domain name",
+  "No-Downtime Deployment using Blue-Green Model",
+  "Using Development Mode"
 ]
