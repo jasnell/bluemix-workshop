@@ -4,6 +4,7 @@ const workshopper = require('workshopper');
 const path        = require('path');
 const more        = require('workshopper-more');
 const open        = require('./open');
+const pkg = require('./package.json');
 
 const opn = require('open');
 
@@ -33,43 +34,31 @@ workshopper({
     {
       name: 'more',
       menu: false,
-      short: 'm',
       handler: more
     },
     {
       name: 'open',
       menu: false,
-      short: 'o',
       handler: open
     },
     {
-      name: 'what is bluemix',
-      menu: true,
-      short: 'w',
+      name: 'what_is_bluemix',
       handler: whatis
     },
     {
       name: 'register',
-      menu: true,
-      short: 'r',
       handler: signup
     },
     {
       name: 'dashboard',
-      menu: true,
-      short: 'd',
       handler: dashboard
     },
     {
       name: 'solutions',
-      menu: true,
-      short: 's',
       handler: solutions
     },
     {
       name: 'catalog',
-      menu: true,
-      short: 'c',
       handler: catalog
     }
   ]

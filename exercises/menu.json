@@ -4,7 +4,6 @@
   "Creating a Simple Webapp",
   "Adding Bluemix Support",
   "Deploying the App To Bluemix",
-  "Using Bluemix Live Sync",
   "Creating a Bluemix Service Instance",
   "Binding a Service Instance to an Application",
   "Using the Service Instance in your Application",
@@ -14,5 +13,6 @@
   "Using user-provided services for secrets",
   "Using a custom domain name",
   "No-Downtime Deployment using Blue-Green Model",
-  "Using Development Mode"
+  "Using Development Mode",
+  "Using Bluemix Live Sync"
 ]
