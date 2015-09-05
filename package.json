@@ -1,6 +1,6 @@
 {
   "name": "bluemix-workshop",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Developer's Guide to Bluemix",
   "main": "app.js",
   "dependencies": {

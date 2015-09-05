@@ -9,7 +9,7 @@ const pkg = require('./package.json');
 const opn = require('open');
 
 function signup(workshopper) {
-  opn('https://console.ng.bluemix.net/registration/');
+  opn('http://ibm.co/1M05AMX');
 }
 function dashboard(workshopper) {
   opn('https://console.ng.bluemix.net/?direct=classic/#/resources');
